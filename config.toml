@@ -1,0 +1,16 @@
+base_url = "https://mathesis-94.github.io"
+title = "Mathesis' Website"
+description = "E-portfolio, writeups, ctf ranking info, professional profile links etc"
+output_dir = 
+
+theme = 
+# create modified/improved/polished version of my old zola theme for this
+taxonomies = [
+    {name = "tags", feed = true},
+    {name = "categories", feed = true},
+]
+compile_sass = true
+build_search_index = true
+generate_feeds = true
+minify_html = true
+default_language = "en"
