@@ -1,0 +1,68 @@
+# general gitignore - largely a place holder, adjust later
+/public/
+/public_staging/
+
+# artifacts/ cache
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+
+# sys/gen
+.directory
+.Trash-*/
+*.pacnew
+*.pacsave
+.cache/
+.vim/
+.emacs.d/
+.env.local
+.env.*.local
+*.tmp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+.#*
+.nano_history*~
+.swp
+.zshrc
+
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+*.log
+logs/
+.vim/
+.config/nvim/
+*.un~
+Session.vim
+
+
+
+# Rust 
+target/
+Cargo.lock
+*.rlib
+
+
+
+# git stuff
+.git/
+.gitattributes
